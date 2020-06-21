@@ -63,14 +63,14 @@
                             <a class="nav-link active" href="#">Home</a>
                         </li>
                         <li class="nav-item mx-lg-1">
-                            <a class="nav-link" href="#cources">Cources</a>
+                            <a class="nav-link" href="#About us">About us</a>
                         </li>
                         
                         <li class="nav-item mx-lg-1">
-                            <a class="nav-link" href="#faculty">Faculty</a>
+                            <a class="nav-link" href="#Our Service">Our Service</a>
                         </li>
                         <li class="nav-item mx-lg-1">
-                            <a class="nav-link" href="#fees">Fees</a>
+                            <a class="nav-link" href="#Charges">Charges</a>
                         </li>
                         <li class="nav-item mx-lg-1">
                             <a class="nav-link" href="#blogs">Blogs</a>
@@ -107,17 +107,17 @@
                     <div class="col-md-5">
                         <div class="mt-md-4">
                             <div>
-                                <span class="badge badge-danger badge-pill">New</span>
-                                <span class="text-white-50 ml-1">Welcome to new landing page</span>
+                              <!--   <a href="" target="_blank" class="btn btn-success">About <i
+                                    class="mdi mdi-arrow-right ml-1"></i></a>
+                                <span class="text-white-50 ml-1">Welcome to new landing page</span> -->
                             </div>
                             <h2 class="text-white font-weight-normal mb-4 mt-3 hero-title">
-                                Responsive Web UI Kit & Dashboard Template
+                                We are Providing Best Business Service
                             </h2>
 
-                            <p class="mb-4 font-16 text-white-50">Hyper is a fully featured dashboard and admin template
-                                comes with tones of well designed UI elements, components, widgets and pages.</p>
+                            <p class="mb-4 font-16 text-white-50">Highly in house Experienced Designer, Developers and Marketing Team.</p>
 
-                            <a href="" target="_blank" class="btn btn-success">Preview <i
+                            <a href="" target="_blank" class="btn btn-success">About <i
                                     class="mdi mdi-arrow-right ml-1"></i></a>
                         </div>
                     </div>
@@ -132,17 +132,18 @@
         <!-- END HERO -->
 
         <!-- START SERVICES -->
-        <section class="py-5" id="cources">
+        <section class="py-5" id="About us">
             <div class="container">
                 <div class="row py-4">
                     <div class="col-lg-12">
                         <div class="text-center">
-                            <h1 class="mt-0"><i class="mdi mdi-infinity"></i></h1>
-                            <h3>The admin is fully <span class="text-primary">responsive</span> and easy to <span
+                            <h1 class="mt-0">About Us</h1>
+                            <h3>We provide a complete <span class="text-primary">IT solution</span> which includes making all types of websites <span
                                     class="text-primary">customize</span></h3>
-                            <p class="text-muted mt-2">The clean and well commented code allows easy customization of the
-                                theme.It's designed for
+                            <p class="text-muted mt-2">interactive mobile apps, interactive designs, portal development, digital marketing, corporate identity, motion graphics, and motion videos.
                                 <br>describing your app, agency or business.</p>
+
+
                         </div>
                     </div>
                 </div>
@@ -155,9 +156,8 @@
                                     <i class="uil uil-desktop text-primary font-24"></i>
                                 </span>
                             </div>
-                            <h4 class="mt-3">Responsive Layouts</h4>
-                            <p class="text-muted mt-2 mb-0">Et harum quidem rerum as expedita distinctio nam libero tempore
-                                cum soluta nobis est cumque quo.
+                            <h4 class="mt-3">Vision</h4>
+                            <p class="text-muted mt-2 mb-0">We aim to become a prominent web solution providing company which can stay updated with all the latest technology by providing a cost-effective and quality service.
                             </p>
                         </div>
                     </div>
@@ -169,9 +169,8 @@
                                     <i class="uil uil-vector-square text-primary font-24"></i>
                                 </span>
                             </div>
-                            <h4 class="mt-3">Based on Bootstrap UI</h4>
-                            <p class="text-muted mt-2 mb-0">Temporibus autem quibusdam et aut officiis necessitatibus saepe
-                                eveniet ut sit et recusandae.
+                            <h4 class="mt-3">Mission</h4>
+                            <p class="text-muted mt-2 mb-0">Once a project is taken from our client, we give a very priority to give the best solution to the clients. We take each of the problems associated with the work on a very quick way to find the solution to them.
                             </p>
                         </div>
                     </div>
@@ -183,15 +182,17 @@
                                     <i class="uil uil-presentation text-primary font-24"></i>
                                 </span>
                             </div>
-                            <h4 class="mt-3">Creative Design</h4>
-                            <p class="text-muted mt-2 mb-0">Nam libero tempore, cum soluta a est eligendi minus id quod
-                                maxime placeate facere assumenda est.
+                            <h4 class="mt-3">Values</h4>
+                            <p class="text-muted mt-2 mb-0">Completing the project in the given deadline
+Meeting all the specifications and the requirements of the client
+Providing a high-quality solution the client
+Providing 24X7 support to our clients.
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-4">
                         <div class="text-center p-3">
                             <div class="avatar-sm m-auto">
@@ -233,22 +234,21 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </section>
         <!-- END SERVICES -->
 
         <!-- START FEATURES 1 -->
-        <section class="py-5 bg-light-lighten border-top border-bottom border-light" id="faculty">
+        <section class="py-5 bg-light-lighten border-top border-bottom border-light" id="Our Service">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-center">
-                            <h3>Flexible <span class="text-primary">Layouts</span></h3>
-                            <p class="text-muted mt-2">There are three different layout options available to cater need for
-                                any <br /> modern web
-                                application.</p>
+                            <h3>Our <span class="text-primary">Services</span></h3>
+                            <p class="text-muted mt-2">We provide one of the best interactive web services which include making static, dynamic, corporate, brand, and e-commerce websites  <br /> modern web
+                                application & mobile application.</p>
                         </div>
                     </div>
                 </div>
@@ -258,7 +258,7 @@
                         <div class="demo-box text-center">
                             <img src="{{ asset('images/layouts/layout-1.png') }}" alt="demo-img"
                                 class="img-fluid shadow-sm rounded">
-                            <h5 class="mt-3 f-17">Vertical Layout</h5>
+                            <h5 class="mt-3 f-17">Static/Portfolio Website</h5>
                         </div>
                     </div>
 
@@ -266,14 +266,14 @@
                         <div class="demo-box text-center mt-3 mt-lg-0">
                             <img src="{{ asset('images/layouts/layout-2.png') }}" alt="demo-img"
                                 class="img-fluid shadow-sm rounded">
-                            <h5 class="mt-3 f-17">Horizontal Layout</h5>
+                            <h5 class="mt-3 f-17">Dyanamic Website</h5>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="demo-box text-center mt-3 mt-lg-0">
                             <img src="{{ asset('images/layouts/layout-3.png') }}" alt="demo-img"
                                 class="img-fluid shadow-sm rounded">
-                            <h5 class="mt-3 f-17">Detached Layout</h5>
+                            <h5 class="mt-3 f-17">Custom Portal</h5>
                         </div>
                     </div>
                 </div>
@@ -284,14 +284,14 @@
                         <div class="demo-box text-center">
                             <img src="{{ asset('images/layouts/layout-5.png') }}" alt="demo-img"
                                 class="img-fluid shadow-sm rounded">
-                            <h5 class="mt-3 f-17">Light Sidenav Layout</h5>
+                            <h5 class="mt-3 f-17">Brand Websites</h5>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="demo-box text-center mt-3 mt-lg-0">
                             <img src="{{ asset('images/layouts/layout-6.png') }}" alt="demo-img"
                                 class="img-fluid shadow-sm rounded">
-                            <h5 class="mt-3 f-17">Boxed Layout</h5>
+                            <h5 class="mt-3 f-17">E-Commerce Websites</h5>
                         </div>
                     </div>
 
@@ -299,7 +299,7 @@
                         <div class="demo-box text-center mt-3 mt-lg-0">
                             <img src="{{ asset('images/layouts/layout-4.png') }}" alt="demo-img"
                                 class="img-fluid shadow-sm rounded">
-                            <h5 class="mt-3 f-17">Semi Dark Layout</h5>
+                            <h5 class="mt-3 f-17">Mobile Development Application</h5>
                         </div>
                     </div>
                 </div>
@@ -309,7 +309,7 @@
         <!-- END FEATURES 1 -->
 
         <!-- START PRICING -->
-        <section class="py-5 bg-light-lighten border-top border-bottom border-light" id="fees">
+        <section class="py-5 bg-light-lighten border-top border-bottom border-light" id="Charges">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -474,9 +474,9 @@
 
                 <div class="row align-items-center mt-3">
                     <div class="col-md-4">
-                        <p class="text-muted"><span class="font-weight-bold">Customer Support:</span><br> <span class="d-block mt-1">+1 234 56 7894</span></p>
-                        <p class="text-muted mt-4"><span class="font-weight-bold">Email Address:</span><br> <span class="d-block mt-1">info@gmail.com</span></p>
-                        <p class="text-muted mt-4"><span class="font-weight-bold">Office Address:</span><br> <span class="d-block mt-1">4461 Cedar Street Moro, AR 72368</span></p>
+                        <p class="text-muted"><span class="font-weight-bold">Customer Support:</span><br> <span class="d-block mt-1">+91 7977724451 / 8652427021</span></p>
+                        <p class="text-muted mt-4"><span class="font-weight-bold">Email Address:</span><br> <span class="d-block mt-1">sunilofficial@gmail.com</span></p>
+                        <p class="text-muted mt-4"><span class="font-weight-bold">Office Address:</span><br> <span class="d-block mt-1">Jai Maharashtra welf soc Sanjay Nagar, Lalji pada, Kandivali, Mumbai, Maharashtra 400067</span></p>
                         <p class="text-muted mt-4"><span class="font-weight-bold">Office Time:</span><br> <span class="d-block mt-1">9:00AM To 6:00PM</span></p>
                     </div>
 
@@ -534,7 +534,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <img src="{{ asset('images/pluginlogo1.png') }}" alt="" class="logo-dark" height="70" />
-                        <p class="text-white-50 mt-4">Hyper makes it easier to build better websites with
+                        <p class="text-white-50 mt-4">Plugin Solution makes it easier to build better websites with
                             <br> great speed. Save hundreds of hours of design
                             <br> and development by using it.</p>
 
@@ -593,8 +593,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="mt-5">
-                            <p class="text-white-50 mt-4 text-center mb-0">© 2018 - 2020 Hyper. Design and coded by
-                                Coderthemes</p>
+                            <p class="text-white-50 mt-4 text-center mb-0">Copyright © 2018-2019. Plugin Solution | All Rights Reserved. | Privacy Policy | Terms & Conditions</p>
                         </div>
                     </div>
                 </div>
