@@ -1,7 +1,14 @@
-@extends('layouts.app')
-
+@extends('layouts.main')
+@section('title', 'Register')
+@section('css')
+<!-- BEGIN PAGE VENDOR CSS-->
+    <!-- END PAGE VENDOR CSS-->
+    
+    <!-- BEGIN PAGE LEVEL CSS-->
+    <!-- END PAGE LEVEL CSS-->
+@endsection
 @section('content')
-<div class="container">
+<div class="container" style="padding-top: 50px!important;">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">

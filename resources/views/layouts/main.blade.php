@@ -1,4 +1,4 @@
-<!DOCTYPE html >
+  <!DOCTYPE html >
 <html lang="{{ app()->getLocale() }}">
 <head>
   <meta charset="utf-8">
@@ -54,7 +54,7 @@ return false;
 <body class="loading" data-layout="topnav" data-layout-config='{"layoutBoxed":false,"darkMode":false,"showRightSidebarOnStart": true}'>
         <!-- Begin page -->
         <div class="wrapper">
-
+  @include('layouts.include.sidebar')
   @include('layouts.include.header')
   <!-- Full Width Column -->
   <div class="content-wrapper">

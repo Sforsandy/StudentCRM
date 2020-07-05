@@ -159,14 +159,12 @@
                                 </li>
                                  @guest
                             <li class="dropdown notification-list">
-                                <a class="nav-link dropdown-toggle nav-user arrow-none mr-0" data-toggle="dropdown" id="topbar-userdrop" href="{{ route('login') }}" role="button" aria-haspopup="true"
-                                        aria-expanded="false">
+                                <a class="nav-link dropdown-toggle nav-user arrow-none mr-0"  href="{{ route('login') }}" >
                                 {{ __('Login') }}</a>
                             </li>
                             @if (Route::has('register'))
                                 <li class="dropdown notification-list">
-                                    <a class="nav-link dropdown-toggle nav-user arrow-none mr-0" data-toggle="dropdown" id="topbar-userdrop" href="{{ route('register') }}" role="button" aria-haspopup="true"
-                                        aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle nav-user arrow-none mr-0"  href="{{ route('register') }}" >
                                         {{ __('Register') }}</a>
                                 </li>
                             @endif
