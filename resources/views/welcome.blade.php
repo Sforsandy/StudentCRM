@@ -4,15 +4,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
-         <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
+        <title>Plugin Solution</title>
+         <link rel="shortcut icon" href="{{ asset('public/public/images/favicon.ico') }}">
         <!-- App css -->
-        <link href="{{ asset('css/icons.min.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('css/app-creative.min.css') }}" rel="stylesheet" type="text/css" id="light-style" />
-        <link href="{{ asset('css/app-creative-dark.min.css') }}" rel="stylesheet" type="text/css" id="dark-style" />
+        <link href="{{ asset('public/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('public/css/app-creative.min.css') }}" rel="stylesheet" type="text/css" id="light-style" />
+        <link href="{{ asset('public/css/app-creative-dark.min.css') }}" rel="stylesheet" type="text/css" id="dark-style" />
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
+        <style>.footer-icons li a {
+    height: 36px;
+    width: 36px;
+    color: #7c8bad;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 34px;
+    border-radius: 50%;
+    border: 1px solid rgba(124, 139, 173, 0.5);
+    transition: all 0.5s;
+}</style>
         <!-- Styles -->
     </head>
     <!-- <body>
@@ -38,8 +49,8 @@
             <div class="container">
 
                 <!-- logo -->
-                <a href="index.html" class="navbar-brand mr-lg-5">
-                    <img src="{{ asset('images/pluginlogo1.png') }}" alt="" class="logo-dark" height="70" />
+                <a href="index.html" class="navbar-brand">
+                    <img src="{{ asset('public/images/pluginlogo1.png') }}" alt="" class="logo-dark" height="70" />
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -68,9 +79,6 @@
                         
                         <li class="nav-item mx-lg-1">
                             <a class="nav-link" href="#Our Service">Our Service</a>
-                        </li>
-                        <li class="nav-item mx-lg-1">
-                            <a class="nav-link" href="#Charges">Charges</a>
                         </li>
                         <li class="nav-item mx-lg-1">
                             <a class="nav-link" href="#blogs">Blogs</a>
@@ -117,13 +125,13 @@
 
                             <p class="mb-4 font-16 text-white-50">Highly in house Experienced Designer, Developers and Marketing Team.</p>
 
-                            <a href="" target="_blank" class="btn btn-success">About <i
+                            <a href="#About us"  class="btn btn-success">About <i
                                     class="mdi mdi-arrow-right ml-1"></i></a>
                         </div>
                     </div>
                     <div class="col-md-5 offset-md-2">
                         <div class="text-md-right mt-3 mt-md-0">
-                            <img src="{{ asset('images/startup.svg') }}" alt="" class="img-fluid" />
+                            <img src="{{ asset('public/images/startup.svg') }}" alt="" class="img-fluid" />
                         </div>
                     </div>
                 </div>
@@ -256,7 +264,7 @@ Providing 24X7 support to our clients.
                 <div class="row mt-4">
                     <div class="col-lg-4">
                         <div class="demo-box text-center">
-                            <img src="{{ asset('images/layouts/layout-1.png') }}" alt="demo-img"
+                            <img src="{{ asset('public/images/layouts/layout-1.png') }}" alt="demo-img"
                                 class="img-fluid shadow-sm rounded">
                             <h5 class="mt-3 f-17">Static/Portfolio Website</h5>
                         </div>
@@ -264,14 +272,14 @@ Providing 24X7 support to our clients.
 
                     <div class="col-lg-4">
                         <div class="demo-box text-center mt-3 mt-lg-0">
-                            <img src="{{ asset('images/layouts/layout-2.png') }}" alt="demo-img"
+                            <img src="{{ asset('public/images/layouts/layout-2.png') }}" alt="demo-img"
                                 class="img-fluid shadow-sm rounded">
                             <h5 class="mt-3 f-17">Dyanamic Website</h5>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="demo-box text-center mt-3 mt-lg-0">
-                            <img src="{{ asset('images/layouts/layout-3.png') }}" alt="demo-img"
+                            <img src="{{ asset('public/images/layouts/layout-3.png') }}" alt="demo-img"
                                 class="img-fluid shadow-sm rounded">
                             <h5 class="mt-3 f-17">Custom Portal</h5>
                         </div>
@@ -282,14 +290,14 @@ Providing 24X7 support to our clients.
                     
                     <div class="col-lg-4">
                         <div class="demo-box text-center">
-                            <img src="{{ asset('images/layouts/layout-5.png') }}" alt="demo-img"
+                            <img src="{{ asset('public/images/layouts/layout-5.png') }}" alt="demo-img"
                                 class="img-fluid shadow-sm rounded">
                             <h5 class="mt-3 f-17">Brand Websites</h5>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="demo-box text-center mt-3 mt-lg-0">
-                            <img src="{{ asset('images/layouts/layout-6.png') }}" alt="demo-img"
+                            <img src="{{ asset('public/images/layouts/layout-6.png') }}" alt="demo-img"
                                 class="img-fluid shadow-sm rounded">
                             <h5 class="mt-3 f-17">E-Commerce Websites</h5>
                         </div>
@@ -297,7 +305,7 @@ Providing 24X7 support to our clients.
 
                     <div class="col-lg-4">
                         <div class="demo-box text-center mt-3 mt-lg-0">
-                            <img src="{{ asset('images/layouts/layout-4.png') }}" alt="demo-img"
+                            <img src="{{ asset('public/images/layouts/layout-4.png') }}" alt="demo-img"
                                 class="img-fluid shadow-sm rounded">
                             <h5 class="mt-3 f-17">Mobile Development Application</h5>
                         </div>
@@ -307,92 +315,6 @@ Providing 24X7 support to our clients.
             </div>
         </section>
         <!-- END FEATURES 1 -->
-
-        <!-- START PRICING -->
-        <section class="py-5 bg-light-lighten border-top border-bottom border-light" id="Charges">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="text-center">
-                            <h1 class="mt-0"><i class="mdi mdi-tag-multiple"></i></h1>
-                            <h3>Choose Simple <span class="text-primary">Pricing</span></h3>
-                            <p class="text-muted mt-2">The clean and well commented code allows easy customization of the
-                                theme.It's designed for
-                                <br>describing your app, agency or business.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mt-5 pt-3">
-                    <div class="col-md-4">
-                        <div class="card card-pricing">
-                            <div class="card-body text-center">
-                                <p class="card-pricing-plan-name font-weight-bold text-uppercase">Standard License </p>
-                                <i class="card-pricing-icon dripicons-user text-primary"></i>
-                                <h2 class="card-pricing-price">$49 <span>/ License</span></h2>
-                                <ul class="card-pricing-features">
-                                    <li>10 GB Storage</li>
-                                    <li>500 GB Bandwidth</li>
-                                    <li>No Domain</li>
-                                    <li>1 User</li>
-                                    <li>Email Support</li>
-                                    <li>24x7 Support</li>
-                                </ul>
-                                <button class="btn btn-primary mt-4 mb-2 btn-rounded">Choose Plan</button>
-                            </div>
-                        </div>
-                        <!-- end Pricing_card -->
-                    </div>
-                    <!-- end col -->
-
-                    <div class="col-md-4">
-                        <div class="card card-pricing card-pricing-recommended">
-                            <div class="card-body text-center">
-                                <div class="card-pricing-plan-tag">Recommended</div>
-                                <p class="card-pricing-plan-name font-weight-bold text-uppercase">Multiple License</p>
-                                <i class="card-pricing-icon dripicons-briefcase text-primary"></i>
-                                <h2 class="card-pricing-price">$99 <span>/ License</span></h2>
-                                <ul class="card-pricing-features">
-                                    <li>50 GB Storage</li>
-                                    <li>900 GB Bandwidth</li>
-                                    <li>2 Domain</li>
-                                    <li>10 User</li>
-                                    <li>Email Support</li>
-                                    <li>24x7 Support</li>
-                                </ul>
-                                <button class="btn btn-primary mt-4 mb-2 btn-rounded">Choose Plan</button>
-                            </div>
-                        </div>
-                        <!-- end Pricing_card -->
-                    </div>
-                    <!-- end col -->
-
-                    <div class="col-md-4">
-                        <div class="card card-pricing">
-                            <div class="card-body text-center">
-                                <p class="card-pricing-plan-name font-weight-bold text-uppercase">Extended License</p>
-                                <i class="card-pricing-icon dripicons-store text-primary"></i>
-                                <h2 class="card-pricing-price">$599 <span>/ License</span></h2>
-                                <ul class="card-pricing-features">
-                                    <li>100 GB Storege</li>
-                                    <li>Unlimited Bandwidth</li>
-                                    <li>10 Domain</li>
-                                    <li>Unlimited User</li>
-                                    <li>Email Support</li>
-                                    <li>24x7 Support</li>
-                                </ul>
-                                <button class="btn btn-primary mt-4 mb-2 btn-rounded">Choose Plan</button>
-                            </div>
-                        </div>
-                        <!-- end Pricing_card -->
-                    </div>
-                    <!-- end col -->
-
-                </div>
-
-            </div>
-        </section>
-        <!-- END PRICING -->
 
         <!-- START FAQ -->
         <section class="py-5" id="blogs">
@@ -486,7 +408,7 @@ Providing 24X7 support to our clients.
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label for="fullname">Your Name</label>
-                                        <input class="form-control form-control-light" type="text" id="fullname" placeholder="Name...">
+                                        <input class="form-control form-control-light" type="text" id="fullname" required="" placeholder="Name...">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
@@ -501,7 +423,7 @@ Providing 24X7 support to our clients.
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <label for="subject">Your Subject</label>
-                                        <input class="form-control form-control-light" type="text" id="subject" placeholder="Enter subject...">
+                                        <input class="form-control form-control-light" type="text" id="subject" required="" placeholder="Enter subject...">
                                     </div>
                                 </div>
                             </div>
@@ -510,7 +432,7 @@ Providing 24X7 support to our clients.
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <label for="comments">Message</label>
-                                        <textarea id="comments" rows="4" class="form-control form-control-light" placeholder="Type your message here..."></textarea>
+                                        <textarea id="comments" rows="4" class="form-control form-control-light" required="" placeholder="Type your message here..."></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -533,7 +455,7 @@ Providing 24X7 support to our clients.
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <img src="{{ asset('images/pluginlogo1.png') }}" alt="" class="logo-dark" height="70" />
+                        <img src="{{ asset('public/images/pluginlogo1.png') }}" alt="" class="logo-dark" height="70" />
                         <p class="text-white-50 mt-4">Plugin Solution makes it easier to build better websites with
                             <br> great speed. Save hundreds of hours of design
                             <br> and development by using it.</p>
@@ -559,27 +481,30 @@ Providing 24X7 support to our clients.
                         <h5 class="text-white">Company</h5>
 
                         <ul class="list-unstyled pl-0 mb-0 mt-3">
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-white-50">About Us</a></li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-white-50">Documentation</a></li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-white-50">Blog</a></li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-white-50">Affiliate Program</a></li>
+                            <li class="mt-2"><a href="#About us" class="text-white-50">About Us</a></li>
+                            <li class="mt-2"><a href="#Our Service" class="text-white-50">Our Services</a></li>
+                            <li class="mt-2"><a href="#blogs" class="text-white-50">Blog</a></li>
+                            <li class="mt-2"><a href="#contact" class="text-white-50">Contact</a></li>
                         </ul>
 
                     </div>
-
-                    <div class="col-lg-2 mt-3 mt-lg-0">
-                        <h5 class="text-white">Apps</h5>
-
-                        <ul class="list-unstyled pl-0 mb-0 mt-3">
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-white-50">Ecommerce Pages</a></li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-white-50">Email</a></li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-white-50">Social Feed</a></li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-white-50">Projects</a></li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-white-50">Tasks Management</a></li>
+                    <div class="col-lg-4 mt-6 mt-lg-0">
+                    <div class="text-white">
+                        <h5 class="mb-4">Find Us</h5>
+                        
+                        <ul class="list-unstyled footer-icons">
+                            <li class="list-inline-item"><a href="https://dribbble.com/coderthemes"><i class="uil uil-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="https://www.behance.net/coderthemes"><i class="uil uil-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="https://www.behance.net/coderthemes"><i class="uil uil-youtube"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="mailto:support@coderthemes.com"><i class="uil uil-envelope"></i></a></li>
                         </ul>
                     </div>
+                    </div>
 
-                    <div class="col-lg-2 mt-3 mt-lg-0">
+                    <!-- <div class="col-lg-2 mt-3 mt-lg-0">
                         <h5 class="text-white">Discover</h5>
 
                         <ul class="list-unstyled pl-0 mb-0 mt-3">
@@ -587,7 +512,7 @@ Providing 24X7 support to our clients.
                             <li class="mt-2"><a href="javascript: void(0);" class="text-white-50">Our Products</a></li>
                             <li class="mt-2"><a href="javascript: void(0);" class="text-white-50">Privacy</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="row">
@@ -602,8 +527,8 @@ Providing 24X7 support to our clients.
         <!-- END FOOTER -->
 
         <!-- bundle -->
-        <script src="{{ asset('js/vendor.min.js') }}"></script>
-        <script src="{{ asset('js/app.min.js') }}"></script>
+        <script src="{{ asset('public/js/vendor.min.js') }}"></script>
+        <script src="{{ asset('public/js/app.min.js') }}"></script>
 
     </body>
 

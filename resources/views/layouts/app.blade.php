@@ -10,7 +10,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('public/js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -19,11 +19,11 @@
     
         <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
         <!-- App css -->
-        <link href="{{ asset('css/icons.min.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('css/app-creative.min.css') }}" rel="stylesheet" type="text/css" id="light-style" />
-        <link href="{{ asset('css/app-creative-dark.min.css') }}" rel="stylesheet" type="text/css" id="dark-style" />
+        <link href="{{ asset('public/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('public/css/app-creative.min.css') }}" rel="stylesheet" type="text/css" id="light-style" />
+        <link href="{{ asset('public/css/app-creative-dark.min.css') }}" rel="stylesheet" type="text/css" id="dark-style" />
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
